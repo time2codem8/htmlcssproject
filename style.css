@@ -1,0 +1,99 @@
+/* General body styling */
+body {
+    font-family: sans-serif;
+    background-color: #e6f4fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the calculator container */
+.calculator {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input field styling */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Radio button group styling */
+.payment-option {
+    display: flex; /* Align radio buttons horizontally */
+    justify-content: center; /* Center the radio buttons */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+    background-color: #f9f9f9; /* Background color for the box */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center; /* Center the text inside the box */
+    font-family: sans-serif;
+}
+
+/* Styling for the individual radio button labels */
+.payment-option label {
+    font-size: 14px;
+    color: #555;
+    margin-left: 5px; /* Small space between radio button and label */
+    margin-right: 15px; /* Space between labels */
+}
+
+/* Custom radio button styling */
+.payment-option input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label */
+    cursor: pointer;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the result div */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
